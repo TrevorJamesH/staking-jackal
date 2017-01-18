@@ -3,8 +3,8 @@ import subtract from '../lib/subtract.js'
 import R from 'ramda'
 const expect = chai.expect
 
-describe.only('Subtract', () => {
+describe('Subtract', () => {
   it('Subtract (give the difference between two numbers)', () => {
-    expect( subtract(5,3).to.eql(2)) 
+    expect( subtract(5,3)).to.eql(2)
   })
 })
