@@ -3,7 +3,7 @@ import sort from '../lib/sort.js'
 const expect = chai.expect
 
 describe('Sort', () => {
-  it('Sorts the list in ascending order based on difference function', () => {
+  it('Sorts the array values in ascending order', () => {
     expect(sort([4,2,7,5])).to.eql([2, 4, 5, 7])
   })
   it('returns a new array', () => {

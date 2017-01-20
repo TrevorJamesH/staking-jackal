@@ -1,16 +1,21 @@
-const intersection = (array1,array2) => {
+const intersection = function() {
   var newArray = [];
+  var workingArray = arguments[0];
 
-  for(let i=0; i < array1.length; i++)
+  for(let a = 1; a < arguments.length; a++){
+    newArray = [];
+    for(let i=0; i < workingArray.length; i++){
 
-    for(let j=0; j < array2.length; j++)
+      for(let j=0; j < arguments[a].length; j++){
 
-      if(array1[i] === array2[j]){
-        newArray.push(array1[i]);
+        if(workingArray[i] === arguments[a][j]){
+          newArray.push(workingArray[i]);
+        }
       }
-
+    }
+    workingArray = newArray;
+  }
 
   return newArray;
-
 }
 export default intersection

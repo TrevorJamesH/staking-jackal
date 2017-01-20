@@ -1,6 +1,5 @@
 import chai from 'chai'
 import subtract from '../lib/subtract.js'
-import R from 'ramda'
 const expect = chai.expect
 
 describe('Subtract', () => {

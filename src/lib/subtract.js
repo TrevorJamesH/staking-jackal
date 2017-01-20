@@ -1,6 +1,3 @@
-const subtract = (num1,num2) => {
-  var difference = num1 - num2;
-  console.log(difference);
-  return difference
-}
+const subtract = (num1,num2) => num1 - num2
+
 export default subtract
