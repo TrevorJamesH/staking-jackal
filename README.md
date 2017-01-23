@@ -28,3 +28,25 @@ Required
 
 
 Must us - npm run build - before testing
+
+Specifications
+
+  Capitalize
+
+  chunk
+
+  endsWith
+
+  Flatten
+
+  Intersection
+
+  kebabCase
+
+  snake_case
+
+  Sort
+
+  Subtract
+
+  zipWith

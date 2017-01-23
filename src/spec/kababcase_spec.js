@@ -1,8 +1,8 @@
 import chai from 'chai'
-import kebabCase from '../lib/kebabCase.js'
+import kebabCase from '../lib/kababCase.js'
 const expect = chai.expect
 
-describe.only('kebabCase', () => {
+describe('kebabCase', () => {
   it('Returns the kebabCase string if all letters are uppercased', () => {
     expect(kebabCase('Foo Bar')).to.eql('foo-bar')
   })
